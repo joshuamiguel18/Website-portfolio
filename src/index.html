@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Porfotlio</title>
 </head>
 <body>
     <div class="hero">
-        <div class="name">
+        <div id="name" class="name">
+            <h2 id="name">My name is</h2>
             <h1>Joshua Miguel Toribio</h1>
-            <p class="description"> I am an aspiring <span>Web Developer </span>student.</p>
-            <div class="emailCon">
+            <p class="description"> I am a <span>Web Developer </span></p>
+            <div onclick="move()" class="emailCon">
                 <img class="emailLogo"src="/images/email-logo-png-1125.png" alt="email">
-                <button class="email" onclick="copyEmail()"> joshuamigueltoribo18@gmail.com</button>
+                <h3>Contact me</h3>                
             </div>
-            <h3>Copied</h3>
         </div>
     
         
     </div>
     <div class="skills">
-        <div class="container">
+        <!--
+            <div class="container">
                 <div class="legend">
                     <div class="list">
                         <div class="Advance"></div>
@@ -41,13 +41,35 @@
                         <div class="Entry"></div>
                         <h1>Entry</h1>
                     </div>
+                </div>
+        </div>
+            --> 
 
+
+                <h1 class="skill">Services & Technologies I use</h1>
+                <div id="services" class="service">
+                    <div class="service-hub">
+                        <img class="services" src="/images/coding.png" alt="">
+                        <h2>Web Development</h2>
+                        <p>I am here to create design and construct functional websites for you</p>    
+                    </div>
+                    <div class="service-hub">
+                        <img class="services" src="/images/coding (1).png" alt="">
+                        <h2>Backend Development</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eius?
+                        </p>
+                    </div>
+                    <div class="service-hub">
+                        <img class="services" src="/images/web-development.png" alt="">
+                        <h2>Frontend Development</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eius?
+                        </p>
+                    </div>
+                    
+                   
                     
                 </div>
-                
-
-                </div>
-                <h1 class="skill">SKILLS</h1>
+                    
                 <div id="techs" class="techs">
                     <img id="img" class="html" src="/images/html-5.png" alt="">
                     <img id="img" class="css" src="/images/css-3.png" alt="">
@@ -62,7 +84,7 @@
 
     <div class="svg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
-            <path fill="#FBFBFB" fill-opacity="5" d="M0,64L80,64C160,64,320,64,480,74.7C640,85,800,107,960,117.3C1120,128,1280,128,1360,128L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            <path fill="#f3f3f3" fill-opacity="5" d="M0,64L80,64C160,64,320,64,480,74.7C640,85,800,107,960,117.3C1120,128,1280,128,1360,128L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
         </svg>
     </div>
     
@@ -77,24 +99,84 @@
         <div class="sub-container">
             <img src="/images/273241157_686160079077895_9075650239046493357_n.jpg" alt="me">
             <div class="info">
-                <h1>Web Developer / Backend Developer</h1>
-                <p>I am a college student and aspiring Web Developer in the future. </p>
+                <h1>Web Developer / Programmer</h1>
+            
                 <ul class="list1">
-                    <li><strong>Birthday:</strong> November 13,2001</li>
-                    <li><strong>Phone:</strong> +639393251299</li>
-                    <li><strong>City:</strong> Lal-lo,Cagayan</li>
+                    <li>Birthday: November 13,2001</li>
+                    <li>Phone: +639393251299</li>
+                    <li>City: Lal-lo,Cagayan</li>
                     
                 </ul>
                 <ul class="list2">
-                    <li><strong>Age:</strong> 20</li>
-                    <li><strong>Degree:</strong> Computer Engineering(Ongoing)</li>
-                    <li><strong>Email:</strong> joshuamigueltoribio18@gmail.com</li>
+                    <li>Age: 20</li>
+                    <li>Degree: Computer Engineering(Ongoing)</li>
+                    <li>Email: joshuamigueltoribio18@gmail.com</li>
                 </ul>
             </div>
         </div>
     </div>
-      
+    </div>
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f3f3" fill-opacity="1" d="M0,128L120,138.7C240,149,480,171,720,165.3C960,160,1200,128,1320,112L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+    </div>
+    <div class="projects">
+        <h1>PROJECTS</h1> 
+        <div class="container">
+            
+            <div class="sub1">
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                    
+                </div>
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sub2">
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="pro1">
+                        <img src="/images/web-development.png" alt="">
+                        <h1>Project 1</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+
+    </div>  
+    <script src="animation.js"></script>
     <script src="script.js"></script>
     
+
 </body>
 </html>
