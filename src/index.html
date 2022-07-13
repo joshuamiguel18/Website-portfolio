@@ -8,6 +8,16 @@
     
 </head>
 <body>
+    <div class="overlay">
+        <div class="content">
+            <h1>
+                Test
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam nam dolores suscipit vero fuga nostrum quo. Iure qui earum perferendis voluptas distinctio nam numquam sed placeat sit laborum, laudantium omnis similique iusto quibusdam tempore maiores quasi neque fugiat. Magnam neque minima blanditiis aliquid dolores similique architecto laudantium facilis veniam!
+            </p>
+        </div>
+    </div>
     <div class="hero">
         <div id="name" class="name">
             <h2 id="name">My name is</h2>
@@ -82,10 +92,10 @@
         </div>
     </div>
 
-    <div class="svg">
+   <!---- <div class="svg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
             <path fill="#f3f3f3" fill-opacity="5" d="M0,64L80,64C160,64,320,64,480,74.7C640,85,800,107,960,117.3C1120,128,1280,128,1360,128L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-        </svg>
+        </svg> -->
     </div>
     
     <div class="about">
@@ -116,17 +126,21 @@
         </div>
     </div>
     </div>
-    <div>
+<!--<div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f3f3" fill-opacity="1" d="M0,128L120,138.7C240,149,480,171,720,165.3C960,160,1200,128,1320,112L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
-    </div>
+    </div> -->
     <div class="projects">
-        <h1>PROJECTS</h1> 
+        <h1 class="proh1">PROJECTS</h1> 
         <div class="container">
             
             <div class="sub1">
                 <div class="project">
                     <div class="pro1">
-                        <img src="/images/web-development.png" alt="">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
+                        <img src="/images/Screenshot 2022-07-12 123803.png" alt="">
                         <h1>Project 1</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
@@ -134,15 +148,23 @@
                 </div>
                 <div class="project">
                     <div class="pro1">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
                         <img src="/images/web-development.png" alt="">
-                        <h1>Project 1</h1>
+                        <h1>Project 2</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
                 </div>
                 <div class="project">
                     <div class="pro1">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
                         <img src="/images/web-development.png" alt="">
-                        <h1>Project 1</h1>
+                        <h1>Project 3</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
                 </div>
@@ -150,30 +172,56 @@
             <div class="sub2">
                 <div class="project">
                     <div class="pro1">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
                         <img src="/images/web-development.png" alt="">
-                        <h1>Project 1</h1>
+                        <h1>Project 4</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
                 </div>
                 <div class="project">
                     <div class="pro1">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
                         <img src="/images/web-development.png" alt="">
-                        <h1>Project 1</h1>
+                        <h1>Project 5</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
                 </div>
                 <div class="project">
                     <div class="pro1">
+                        <div class="link">
+                            <a href="#"><img src="/images/link.png" alt=""></a>
+                            <img src="/images/open.png" alt="">
+                        </div>
                         <img src="/images/web-development.png" alt="">
-                        <h1>Project 1</h1>
+                        <h1>Project 6</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
                 </div>
             </div>
         </div> 
         
-
-    </div>  
+        
+    </div> 
+    <div class="contact">
+        
+        <div class="contact-container">
+            <h1>Contact me!</h1>
+            <p>You can message me here if you are interest to work projects me. If you have other concerns feel free to use the form. </p>
+            <form action="submit" class="form-container">
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="text" placeholder="Subject" id="subject">
+                <textarea type="text" placeholder="Your Message" id="message"></textarea>    
+            </form>
+            <button id="messageme">Message me</button>
+        </div>
+    </div> 
     <script src="animation.js"></script>
     <script src="script.js"></script>
     
