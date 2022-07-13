@@ -54,11 +54,15 @@ setInterval(() => {
         document.querySelector('.about .container').style.opacity = 0;
     }
     console.log(window.scrollY)
+    if(window.scrollY > 3300) {
+        document.querySelector(".arrow").style.opacity = 1;
+    }
 
 },200);
 
 function move() {
-    alert("Mssage");
-    window.scrollTo(0,2006);
+    document.getElementById('contact').scrollIntoView();
 }
-
+document.querySelector('.arrow').addEventListener('click', ()=> {
+    window.scrollTo(0,0);
+});

@@ -8,16 +8,8 @@
     
 </head>
 <body>
-    <div class="overlay">
-        <div class="content">
-            <h1>
-                Test
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam nam dolores suscipit vero fuga nostrum quo. Iure qui earum perferendis voluptas distinctio nam numquam sed placeat sit laborum, laudantium omnis similique iusto quibusdam tempore maiores quasi neque fugiat. Magnam neque minima blanditiis aliquid dolores similique architecto laudantium facilis veniam!
-            </p>
-        </div>
-    </div>
+    
+
     <div class="hero">
         <div id="name" class="name">
             <h2 id="name">My name is</h2>
@@ -25,7 +17,7 @@
             <p class="description"> I am a <span>Web Developer </span></p>
             <div onclick="move()" class="emailCon">
                 <img class="emailLogo"src="/images/email-logo-png-1125.png" alt="email">
-                <h3>Contact me</h3>                
+                <h3 onclick="">Contact me</h3>                
             </div>
         </div>
     
@@ -138,7 +130,7 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="0" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/Screenshot 2022-07-12 123803.png" alt="">
                         <h1>Project 1</h1>
@@ -150,7 +142,7 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="1" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/web-development.png" alt="">
                         <h1>Project 2</h1>
@@ -161,12 +153,13 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="2" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/web-development.png" alt="">
                         <h1>Project 3</h1>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quae.</p>
                     </div>
+
                 </div>
             </div>
             <div class="sub2">
@@ -174,7 +167,7 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="3" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/web-development.png" alt="">
                         <h1>Project 4</h1>
@@ -185,7 +178,7 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="4" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/web-development.png" alt="">
                         <h1>Project 5</h1>
@@ -196,7 +189,7 @@
                     <div class="pro1">
                         <div class="link">
                             <a href="#"><img src="/images/link.png" alt=""></a>
-                            <img src="/images/open.png" alt="">
+                            <img class="5" src="/images/open.png" alt="">
                         </div>
                         <img src="/images/web-development.png" alt="">
                         <h1>Project 6</h1>
@@ -208,7 +201,7 @@
         
         
     </div> 
-    <div class="contact">
+    <div id="contact" class="contact">
         
         <div class="contact-container">
             <h1>Contact me!</h1>
@@ -220,11 +213,22 @@
                 <textarea type="text" placeholder="Your Message" id="message"></textarea>    
             </form>
             <button id="messageme">Message me</button>
+            <img class="arrow" src="/images/up-arrow.png" alt="arrow">
         </div>
     </div> 
-    <script src="animation.js"></script>
+    <div class="overlay">
+        <div class="content">
+            <h1 class="titleoverlay">
+                Test
+            </h1>
+            <p class="paraoverlay">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam nam dolores suscipit vero fuga nostrum quo. Iure qui earum perferendis voluptas distinctio nam numquam sed placeat sit laborum, laudantium omnis similique iusto quibusdam tempore maiores quasi neque fugiat. Magnam neque minima blanditiis aliquid dolores similique architecto laudantium facilis veniam!
+            </p>
+        </div>
+        
+    </div>
     <script src="script.js"></script>
-    
+    <script src="overlay.js"></script>
 
 </body>
 </html>
