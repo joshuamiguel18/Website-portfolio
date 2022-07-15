@@ -10,11 +10,13 @@ setInterval(() => {
     if(window.scrollY > 200) {
 
         document.querySelector('.skill').style.opacity = 1;
-        document.querySelector('.skill').style.left = "20%";
+        document.querySelector('.skill').style.transform = "translate(-30%)";
+
 
     }else {
-        document.querySelector('.skill').style.left = "80%";
+        document.querySelector('.skill').style.transform = "translate(60%)";
         document.querySelector('.skill').style.opacity = 0;
+        
     }
     console.log(window.scrollY)
 
@@ -22,7 +24,8 @@ setInterval(() => {
 var services = document.getElementsByClassName('service-hub');
 setInterval(() => {
     if(window.scrollY > 400) {
-        document.getElementById('techs').style.left = "15%";
+
+        document.getElementById('techs').style.transform = "translateX(-50%)";
         document.getElementById('techs').style.opacity = 1;
         for(service of services) { 
             service.style.transform = "scale(1)"
@@ -33,7 +36,7 @@ setInterval(() => {
         }
 
     }else {
-        document.getElementById('techs').style.left = "-60%";
+        document.getElementById('techs').style.transform = "translateX(-150%)";
         for(service of services) { 
             service.style.transform = "scale(.5)"
             service.style.opacity = 0;

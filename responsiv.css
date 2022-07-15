@@ -1,4 +1,87 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
+
+
+
+    .skills .skill {
+        font-size: 2.5rem;
+    }
+    .service-hub {
+
+        margin-top: 10%;
+        transform: scale(.1);
+
+    }
+    .service-hub p{
+        font-size: 1.1rem;
+    }
+    .service-hub h2{
+        font-size: 1.5rem;
+        
+    }
+    .techs img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 955px) {
+    .about .sub-container {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .about img {
+        width: 150px;
+        height: 150px;
+    }
+    .about .container p {
+
+        margin: 0px;
+
+    }
+    .info .list1, .list2 li{
+
+        font-size: 1rem;
+    }
+    .info {
+        width: max-content;
+        position: relative;
+
+        display: grid;
+        grid-template-columns: 200px 200px;
+        row-gap: 15px;
+        grid-template-areas: 
+            "header header"
+            "header1 header1"
+            "content content1"
+            ;
+    }
+    .info .list1, .info .list2 {
+        width: max-content;
+    }
+    .projects {
+        transition: all 1s ease-in-out;
+        height: max-content;
+
+        
+    }
+    .projects .container .sub1, .sub2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        transition: all 1s ease-in-out;
+    }
+    .form-container {
+
+        grid-template-columns: 230px 230px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
     .name h1 {
         font-size: 2.5rem;
     }
@@ -18,10 +101,9 @@
     }
     .skills .skill {
         font-size: 1rem;
-        margin-left: -20%;
-        margin-top: 10%;
     }
     .service-hub {
+
         margin-top: 10%;
         transform: scale(.1);
 
@@ -34,21 +116,33 @@
         
     }
     .techs img {
-        width: 110px;
-        height: 110px;
+        width: 75px;
+        height: 75px;
     }
     .techs {
-        margin-top: 5%;
+        margin-top: -20%;
         display: grid;
         grid-template-columns: 115px 115px;
         row-gap: 5px;
         column-gap: 5px;
         grid-template-rows: 115px 115px;
-        margin-left: 6%;
         margin-top: 0;
-
-    
     }
+    .form-container {
 
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 25px 25px;
+    }
+    .arrow {
 
+        bottom: 5%;
+        left: 5%;
+
+    }
+    .contact h1{
+        font-size: 3.3rem;
+    }
 }
+
+
+
