@@ -41,9 +41,12 @@
         margin: 0px;
 
     }
+    .about {
+        height: 120vh;
+    }
     .info .list1, .list2 li{
 
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .info {
         width: max-content;
@@ -51,12 +54,11 @@
 
         display: grid;
         grid-template-columns: 200px 200px;
-        row-gap: 15px;
+        row-gap: 1px;
         grid-template-areas: 
             "header header"
-            "header1 header1"
-            "content content1"
-            ;
+            "content content"
+            "content1 content1";
     }
     .info .list1, .info .list2 {
         width: max-content;
@@ -79,8 +81,27 @@
         grid-template-columns: 230px 230px;
 
     }
-}
+    .techs img {
+        width: 80px;
+        height: 80px;
 
+
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .techs {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 50%;
+    }
+    .skills {
+        height: 130vh;
+    }
+}   
 @media screen and (max-width: 500px) {
     .name h1 {
         font-size: 2.5rem;
@@ -119,15 +140,7 @@
         width: 75px;
         height: 75px;
     }
-    .techs {
-        margin-top: -20%;
-        display: grid;
-        grid-template-columns: 115px 115px;
-        row-gap: 5px;
-        column-gap: 5px;
-        grid-template-rows: 115px 115px;
-        margin-top: 0;
-    }
+    
     .form-container {
 
         grid-template-columns: 150px 150px;
@@ -141,6 +154,35 @@
     }
     .contact h1{
         font-size: 3.3rem;
+    }
+    .service-hub {
+        width: 100px;
+        height: 300px;
+    }
+    .service-hub h2{
+        font-size: 1rem;
+    }
+    .service-hub p{
+        font-size: 1rem;
+    }
+    .service-hub img{
+        width: 80px;
+        height: 80px;
+    }
+    .info {
+        width: max-content;
+        position: relative;
+
+        display: grid;
+        grid-template-columns: 150px 150px;
+        row-gap: 1px;
+        grid-template-areas: 
+            "header header"
+            "content content"
+            "content1 content1";
+    }
+    .about {
+        height: 140vh;
     }
 }
 
